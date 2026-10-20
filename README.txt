@@ -4,10 +4,11 @@ Included files:
 - index.html
 - styles.css (complete layout, colors, responsive design)
 - script.js (WhatsApp enquiry, course-specific messages, maps, mobile menu)
-- academy-logo.svg (local logo fallback)
+- belabhumi-academy-logo.jpeg (your supplied BELABHUMI ACADEMY logo)
+- academy-logo.svg (fallback asset)
 - favicon.svg
 
-IMPORTANT: The original JPEG logo could not be retrieved in this environment, so this ZIP contains a simple local SVG logo fallback. You can replace academy-logo.svg with your approved logo only if you want to; the site will work as packaged.
+IMPORTANT: The supplied BELABHUMI ACADEMY logo is included as belabhumi-academy-logo.jpeg and index.html points to that local file.
 
 UPLOAD TO GITHUB PAGES
 1. Download and extract this ZIP on your computer.

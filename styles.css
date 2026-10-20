@@ -1,0 +1,4 @@
+
+/* Logo provided by the user */
+.academy-logo{width:58px;height:58px;object-fit:contain;border-radius:10px;flex-shrink:0}
+@media(max-width:760px){.academy-logo{width:46px;height:46px}}

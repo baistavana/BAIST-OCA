@@ -1,25 +1,25 @@
-BAIST ODISHA COMPUTER ACADEMY — 100% FIXED WEBSITE
-===================================================
+BAIST ODISHA COMPUTER ACADEMY — WEBSITE ZIP
+============================================
 
-FIXES APPLIED:
-1. LOGO ERROR FIXED:
-   - 'belabhumi-academy-logo.jpeg' is included directly in the root folder.
-   - Built-in Base64 fallback has been added directly inside index.html so that the logo NEVER breaks or shows an error, even if there's a browser caching or hosting path issue.
-2. ADMISSION ENQUIRY POP-UP HIGHLIGHT:
-   - Google Form automatically pops up 1.2s after page load.
-   - 100% mobile friendly.
-   - Floating pulsing button stays on bottom-right corner.
-3. BACKGROUND & STYLES:
-   - Both embedded directly in index.html AND provided as styles.css to ensure 100% styling on any host.
+CHANGES & UPDATES:
+1. NEW OFFICIAL LOGO APPLIED:
+   - Purana tree logo hata diya gaya hai.
+   - Naya official "BAIST ODISHA COMPUTER ACADEMY" emblem logo (Phoenix & Laptop circuit design) add kar diya gaya hai.
+   - Files included: 'baist-logo-square.png', 'baist-academy-logo.png', 'baist-academy-logo.jpeg' and 'favicon.png'.
+   - Header aur Footer dono jagah new logo integrate kiya gaya hai.
+   - Built-in Base64 fallback embed kiya gaya hai taaki browser caching ya slow connection me bhi logo hamesha turant load ho.
+2. ENQUIRY POP-UP & CONTACT:
+   - Responsive design, mobile-friendly admission modal and floating button active hain.
 
-FILES INCLUDED IN THIS ZIP:
+FILES INCLUDED:
 - index.html
 - styles.css
 - script.js
-- belabhumi-academy-logo.jpeg
-- academy-logo.svg
-- favicon.svg
+- baist-logo-square.png
+- baist-academy-logo.png
+- baist-academy-logo.jpeg
+- favicon.png
 - README.txt
 
-TO DEPLOY:
+DEPLOYMENT:
 Extract this ZIP and upload all files to your GitHub repository (baistavana/BAIST-OCA).

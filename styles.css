@@ -125,6 +125,17 @@ footer { padding: 38px 0 18px; background: #080b32; color: #d7deef; }
 .footbrand { color: white; } .footbrand small { color: #b5c1db; } .footbrand .logo { display: grid; place-items: center; width: 48px; height: 48px; background: var(--cyan); color: white; border-radius: 12px; font-size: 28px; font-weight: 800; }
 .footergrid p { color: #b5c1db; font-size: 12px; margin: 0; }
 .footlinks { display: flex; flex-wrap: wrap; gap: 13px; font-size: 12px; }
+.footer-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 15px; }
+.social-follow-row { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 14px; border: 1px solid rgba(105, 153, 255, .32); border-radius: 999px; background: linear-gradient(110deg, rgba(40, 91, 190, .22), rgba(255,255,255,.045)); box-shadow: 0 8px 24px rgba(0,0,0,.12); white-space: nowrap; }
+.social-follow-label { color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+.social-links { display: flex; flex-direction: row; align-items: center; gap: 8px; }
+.social-icon { width: 34px; height: 34px; flex: 0 0 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; background: rgba(255,255,255,.09); transition: transform .2s ease, background .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.social-icon svg { width: 17px; height: 17px; fill: #fff; }
+.social-icon.facebook { background: #1877f2; border-color: #1877f2; }
+.social-icon.youtube { background: #ff0033; border-color: #ff0033; }
+.social-icon.instagram { background: linear-gradient(135deg, #7b2ff7, #f02d7d 58%, #ff9b43); border-color: #d94d9b; }
+.social-icon:hover, .social-icon:focus-visible { transform: translateY(-2px) scale(1.04); box-shadow: 0 5px 14px rgba(0,0,0,.22); border-color: rgba(255,255,255,.8); outline: none; }
+
 .footbottom { display: flex; justify-content: space-between; gap: 15px; border-top: 1px solid #272a50; margin-top: 28px; padding-top: 16px; color: #aeb8d0; font-size: 11px; }
 .mobilebar { display: none; }
 @media (max-width: 980px) {
@@ -164,6 +175,7 @@ footer { padding: 38px 0 18px; background: #080b32; color: #d7deef; }
   .stepgrid article { padding: 18px 15px; }
   .ctawrap { align-items: flex-start; flex-direction: column; }
   .footergrid { grid-template-columns: 1fr; gap: 18px; }
+  .social-follow-row { align-self: flex-start; max-width: 100%; }
   .footbottom { flex-direction: column; }
   .mobilebar { display: grid; grid-template-columns: repeat(3, 1fr); position: fixed; z-index: 90; bottom: 0; left: 0; right: 0; background: white; border-top: 1px solid var(--line); box-shadow: 0 -6px 18px rgba(3,4,94,.08); padding: 8px 8px max(8px, env(safe-area-inset-bottom)); }
   .mobilebar a { display: flex; flex-direction: column; align-items: center; gap: 2px; color: var(--navy); font-size: 19px; font-weight: 800; }
